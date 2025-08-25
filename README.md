@@ -9,6 +9,7 @@ git clone <repo-url>
 cd <repo-folder>
 npm install
 npx playwright test
+```
 
 ## Structure
 
