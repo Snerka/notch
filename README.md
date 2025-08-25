@@ -11,16 +11,14 @@ npm install
 npx playwright test
 ```
 
-Project Structure
-pages/ — Page Object classes
+## Structure
 
-tests/ — Test cases
+pages/ — Page Object classes\n
+tests/ — Test cases\n
+utils/ — Test data\n
+reports/ — Test reports\n
 
-utils/ — Test data
+## Notes
 
-reports/ — Test reports
-
-Notes
-Node.js 18+ required
-
-Reports and screenshots are generated automatically after test execution
+Node.js 18+ required\n
+Reports/screenshots generated automatically\n
