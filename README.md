@@ -1,8 +1,15 @@
+
 # Notch Contact Form Automation
 
-Automated tests for the [Notch contact form](https://wearenotch.com/qa_task/) using Playwright + TypeScript.
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-brightgreen)](https://nodejs.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-1.36-blue)](https://playwright.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)](https://www.typescriptlang.org/)
 
-## Setup & Run
+Automated tests for the [Notch contact form](https://wearenotch.com/qa_task/) using **Playwright + TypeScript**.
+
+---
+
+## 🚀 Setup & Run
 
 ```bash
 git clone <repo-url>
@@ -11,14 +18,27 @@ npm install
 npx playwright test
 ```
 
-## Structure
+---
 
-pages/ — Page Object classes\n
-tests/ — Test cases\n
-utils/ — Test data\n
-reports/ — Test reports\n
+## 🗂 Project Structure
 
-## Notes
+| Folder   | Description              |
+|----------|--------------------------|
+| `pages/` | Page Object classes      |
+| `tests/` | Test cases               |
+| `utils/` | Test data                |
+| `reports/` | Test reports and screenshots |
 
-Node.js 18+ required\n
-Reports/screenshots generated automatically\n
+---
+
+## 📝 Notes
+
+- Node.js 18+ required  
+- Reports/screenshots are generated automatically in `reports/`  
+
+---
+
+## 📌 References
+
+- [Playwright Documentation](https://playwright.dev/docs/intro)  
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)  
