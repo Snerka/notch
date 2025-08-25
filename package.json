@@ -1,0 +1,24 @@
+{
+  "name": "notch",
+  "version": "1.0.0",
+  "description": "Notch QA interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snerka/notch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snerka/notch/issues"
+  },
+  "homepage": "https://github.com/Snerka/notch#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
