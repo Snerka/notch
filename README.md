@@ -35,6 +35,7 @@ npx playwright test
 
 - Node.js 18+ required  
 - Reports/screenshots are generated automatically in `reports/`  
+- Show report with: npx playwright show-report reports/html
 
 ---
 
